@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 3000;
 
 app.get("/jobs", async (req, res) => {
 const workdayUrl =
-"https://wd3-impl-services1.workday.com/ccx/service/customreport2/checkout/ISU_INT058+Career+Site+Jobs/INT058_Jobs_on_Careers_Site_RAAS?format=json";
+"https://wd3-services1.myworkday.com/ccx/service/customreport2/checkout/ISU_INT058+Career+Site+Jobs/INT058_Jobs_on_Careers_Site_RAAS?format=json";
 
 const username = process.env.WORKDAY_USERNAME;
 const password = process.env.WORKDAY_PASSWORD;
